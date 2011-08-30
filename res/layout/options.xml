@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/optionslayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/background"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+		<LinearLayout 
+		android:orientation="vertical"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingRight="20dp"
+		>
+			<Button
+			android:id="@+id/buttontogglesound"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Sound is ON"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttontogglecolorblind"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Colorblind mode is ON"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttonoptionsclearscores"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Clear High Scores"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttonoptionsclearpuzzles"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Clear Puzzle Records"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttonoptionsback"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Back"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+		</LinearLayout>
+</RelativeLayout>

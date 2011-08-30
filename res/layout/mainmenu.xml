@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/mainmenulayout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/mainmenubackground"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+		<LinearLayout 
+		android:orientation="vertical"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingRight="20dp"
+		>
+			<Button
+			android:id="@+id/buttontimedmode"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Timed"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttonendlessmode"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Endless"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttonpuzzlemode"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Puzzle"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttonoptions"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Options"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttonhighscores"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="High Scores"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+			<Button
+			android:id="@+id/buttoninstructions"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Instructions"
+			android:background="@drawable/menubutton"
+			android:textColor="#ffffff"
+			android:textSize="17sp"
+			>
+			</Button>
+		</LinearLayout>
+</RelativeLayout>

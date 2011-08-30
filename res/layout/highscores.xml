@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+		<Spinner
+		android:id="@+id/highscoredifficultyspinner"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		>
+		</Spinner>
+		<Button
+		android:id="@+id/buttonscoresback"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Back"
+		android:background="@drawable/menubutton"
+		android:textColor="#ffffff"
+		android:layout_weight="1"
+		>
+		</Button>
+	</LinearLayout>
+	
+	<TextView 
+	android:id="@+id/noscorestextview"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:gravity="center_horizontal" android:textSize="25px" 
+	android:textStyle="bold" android:text="No Recorded Scores for Easy" 
+	android:typeface="monospace">
+	</TextView>
+	
+	<ListView
+	android:id="@id/android:list"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	</ListView>
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	>
+		<TextView
+		android:id="@+id/instructionstext"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Instructions"
+		android:textSize="25px"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:gravity="center"
+		>
+		</TextView>
+		<Button
+		android:id="@+id/buttoninstructionsback"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Back"
+		android:background="@drawable/menubutton"
+		android:textColor="#ffffff"
+		android:layout_weight="1"
+		>
+		</Button>
+		<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text=""
+		>
+		</TextView>
+		<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingRight="5dp"
+		android:paddingLeft="5dp"
+		android:text="Spinblocks is a color matching game. You score points by matching groups of 3 or more of the same colored blocks. The more blocks you match at once the more points you get!"
+		>
+		</TextView>
+		
+		<TableLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:stretchColumns="1"
+			android:padding="5dip">
+			
+			<TableRow android:padding="3dip">
+				<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/icon"
+				>
+				</ImageView>
+				<TextView
+				android:paddingLeft="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="This is the GRID. Swipe your finger near it to rotate it!"
+				>
+				</TextView>
+			</TableRow>
+			<TableRow android:padding="3dip">
+				<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/launcherinstruct"
+				>
+				</ImageView>
+				<TextView
+				android:paddingLeft="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="This is a LAUNCHER. It launches blocks at the GRID."
+				>
+				</TextView>
+			</TableRow>
+			<TableRow android:padding="3dip">
+				<TextView
+				android:layout_span="2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="The inner block shows what is about to fire.\nThe outer block shows what's coming up next."
+				>
+				</TextView>
+			</TableRow>
+			<TableRow android:padding="3dip">
+				<TextView
+				android:layout_span="2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="The gray bars on both sides indicate that it is counting down to \nlaunch! TAP directly on the LAUNCHER to launch early."
+				>
+				</TextView>
+			</TableRow>
+			<TableRow android:padding="3dip">
+				<TextView
+				android:layout_span="2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="TAP on the ARROWS next to the LAUNCHER to move in that\ndirection. You can also DRAG the LAUNCHER left and right."
+				>
+				</TextView>
+			</TableRow>
+		</TableLayout>
+		
+		<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Game Modes"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:gravity="center"
+		>
+		</TextView>
+		<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="TIMED: Score as many points as you can before time runs out!"
+		>
+		</TextView>
+		<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="ENDLESS: A relaxing endless play mode. There is no failure, just have fun."
+		>
+		</TextView>
+		<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="PUZZLE: Tests of skill and logic. Can you beat it in the least moves possible?"
+		>
+		</TextView>
+		<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text=""
+		>
+		</TextView>
+
+		<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Powerups"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:gravity="center"
+		>
+		</TextView>		
+		<TableLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:stretchColumns="1"
+			android:padding="5dip">
+			
+			<TableRow android:padding="3dip">
+				<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/orbbomb"
+				android:paddingRight="5dp"
+				>
+				</ImageView>
+				<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Bomb - Instantly pops the blocks around it when it attaches."
+				>
+				</TextView>
+			</TableRow>
+			<TableRow android:padding="3dip">
+				<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/orbwildcard"
+				android:paddingRight="5dp"
+				>
+				</ImageView>
+				<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Wildcard - Becomes the color of the block it attaches to."
+				>
+				</TextView>
+			</TableRow>
+		</TableLayout>
+		
+		<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="This game is (c) Stephen Kolibaba 2010. Memeworks is a silly company name that we just came up with. If you own it or feel we shouldn't be using it please e-mail memeworks.studio@gmail.com. Thanks!"
+		>
+		</TextView>
+	</LinearLayout>
+</ScrollView>
